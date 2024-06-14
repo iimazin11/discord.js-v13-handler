@@ -1,6 +1,7 @@
 const { prefix } = require('../configs/config.json');
 const version = require('../package.json')
 const fs = require('fs')
+const AsciiTable = require('ascii-table')
 
 module.exports = {
     name: 'ready',
